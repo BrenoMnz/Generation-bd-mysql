@@ -12,8 +12,6 @@ CREATE TABLE tb_colaboradores (
     PRIMARY KEY (CPF)
 );
 
-DROP TABLE tb_colaboradores;
-
 INSERT INTO tb_colaboradores(CPF, pnome, unome, datanasc, email, salario)
 VALUES ('123.456.789-10', 'Rodrigo', 'Faro', '1998-06-04', 'rodrigofaro@gmail.com', 1000.00);
 INSERT INTO tb_colaboradores(CPF, pnome, unome, datanasc, email, salario)
